@@ -3,7 +3,7 @@ import code from '../assets/code2.png';
 import albayt1 from '../assets/Albayt.png';
 const Works = () => {
   return (
-    <div name='work' className='w-full pt-16 md:h-screen text-gray-300 bg-[#0a192f] sm:h-full'>
+    <div name='work' className='w-full pt-16 md:h-screen text-gray-300 bg-[black] sm:h-full'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8 w-full flex justify-center items-center flex-col'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-cyan-500'>
@@ -16,7 +16,7 @@ const Works = () => {
             {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${albayt1})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+            className='shadow-lg shadow-[white] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
@@ -40,7 +40,7 @@ const Works = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${code})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+            className='shadow-lg shadow-[white] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
@@ -64,7 +64,7 @@ const Works = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${code})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+            className='shadow-lg shadow-[white] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
@@ -88,7 +88,7 @@ const Works = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${code})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+            className='shadow-lg shadow-[white] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
@@ -112,7 +112,7 @@ const Works = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${code})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+            className='shadow-lg shadow-[white] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
@@ -136,7 +136,7 @@ const Works = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${code})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+            className='shadow-lg shadow-[white] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>

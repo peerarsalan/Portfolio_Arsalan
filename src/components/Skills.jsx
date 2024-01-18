@@ -13,37 +13,37 @@ const Skills = () => {
               <div className='shadow-md shadow-white text-black bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-110 duration-500'>
                   <p className='my-4'>HTML</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md shadow-white text-black bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-110 duration-500'>
                   <p className='my-4'>CSS</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md shadow-white text-black bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-110 duration-500'>
                   <p className='my-4'>JAVASCRIPT</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md shadow-white text-black bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-110 duration-500'>
                   <p className='my-4'>REACT</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md shadow-white text-black bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-110 duration-500'>
                   <p className='my-4'>GITHUB</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md shadow-white text-black bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-110 duration-500'>
                   <p className='my-4'>BOOTSTRAP</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md shadow-white text-black bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-110 duration-500'>
                   <p className='my-4'>WORDPRESS</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md shadow-white text-black bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-110 duration-500'>
                   <p className='my-4'>CMS</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md shadow-white text-black bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-110 duration-500'>
                   <p className='my-4'>SEO</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md shadow-white text-black bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-110 duration-500'>
                   <p className='my-4'>WEB DESIGN</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md shadow-white text-black bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-110 duration-500'>
                   <p className='my-4'>TAILWIND</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md shadow-white text-black bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-110 duration-500'>
                   <p className='my-4'>MYSQL</p>
               </div>
           </div>
