@@ -2,7 +2,7 @@ import React from 'react';
 import code from '../assets/code2.png';
 import albayt1 from '../assets/Albayt.png';
 const Works = () => {
-  return (
+  return(
     <div name='work' className='w-full pt-16 md:h-screen text-gray-300 bg-[black] sm:h-full'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8 w-full flex justify-center items-center flex-col'>

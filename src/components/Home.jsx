@@ -4,7 +4,7 @@ import me from '../assets/main.png';
 import { Link } from "react-scroll"; 
 
 const Home = () => {
-  return (
+  return(
     <div
     name="home"
     className="h-full w-full bg-[black] md:h-full"

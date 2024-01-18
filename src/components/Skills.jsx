@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Skills = () => {
-  return (
+  return(
     <div name='skills' className='w-full h-screen pt-16 bg-[black] text-gray-300 sm:h-full'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>

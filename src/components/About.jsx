@@ -1,7 +1,7 @@
 import React from "react";
 
 const About = () => { 
-  return (
+  return(
     <div
       name="about"
       id="about"
@@ -12,7 +12,7 @@ const About = () => {
         <div className=" rounded-md bg-gradient-to-r from-blue-500 to-cyan-500 flex flex-col justify-center items-center w-4/6 ">
           <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8 mb-4">
             <div className="sm:text-right pb-8 pl-4">
-              <p className="text-4xl  font-bold inline border-b-4 text-white border-cyan-500 ">
+              <p className="text-4xl  font-bold inline border-b-4 text-white border-cyan-500">
                 About
               </p>
             </div>

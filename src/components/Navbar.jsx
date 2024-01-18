@@ -17,7 +17,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
-  return (
+  return(
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[black] text-gray-300'>
       <div>
        <div className='flow-root flex md:flex'>
