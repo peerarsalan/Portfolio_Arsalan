@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    screens:{
+      'xsm': {'max':'639px'},
+    }
   },
   plugins: [],
 }
