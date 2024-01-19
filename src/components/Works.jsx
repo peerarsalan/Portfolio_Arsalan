@@ -12,7 +12,7 @@ const Works = () => {
           <p className='py-6 text-2xl text-center px-7'>Check out some of my most recent work</p>
         </div>
 {/* Container */}
-        <div className='grid sm:grid-cols-2 px-3 md:grid-cols-3 gap-4'>
+        <div className='grid xsm:grid-cols-1 xsm:size{-30%} sm:grid-cols-2 px-3 md:grid-cols-3 gap-4'>
             {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${albayt1})` }}

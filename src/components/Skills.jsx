@@ -9,7 +9,7 @@ const Skills = () => {
               <p className='text-4xl font-bold inline border-b-4 border-cyan-500 text-center '>Skills</p>
               <p className='py-4 text-center px-10 text-2xl'>I enjoy diving into and learning new things. Here's a list of technologies I love to work with</p>
           </div> 
-          <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
+          <div className='w-full grid md:grid-cols-4 xsm:grid-cols-2 gap-4 text-center py-8'>
               <div className='shadow-md shadow-white text-black bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-110 duration-500'>
                   <p className='my-4'>HTML</p>
               </div>
