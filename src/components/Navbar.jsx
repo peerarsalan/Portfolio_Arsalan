@@ -1,5 +1,6 @@
 import React, { useState } from 'react'; 
 import me from '../assets/main.png';
+import logo from '../assets/logo.png';
 import {
   FaBars,
   FaTimes,
@@ -8,6 +9,7 @@ import {
   FaFacebook,
   FaLinkedinIn,
   FaInstagram,
+  FaArrowLeft,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -18,11 +20,11 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return(
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[black] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-l from-gray-700 via-gray-900 to-black opacity-90 text-gray-300'>
       <div>
        <div className='flow-root flex xsm:flex '>
-        <h1 className=' font-bold text-2xl flow-right xsm:text-xl md:text-4xl'>ARSALAN</h1>
-        <img className='flow-left' src={me} width={35} height={20} />
+        <h1 className=' font-bold text-2xl xsm:text-xl md:text-4xl'>ARSALAN</h1>
+        <img className='ml-4' src={logo} width={35} height={20} />
         </div>
         
       </div>
@@ -142,7 +144,11 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+      <div className='fixed w-full h-[30px] flex justify-between items-center px-4 bottom-0 bg-[] text-gray-300 flex'>
+      <h3 className='text-right w-full items-center pr-4 font-sans font-bold'>&copy; Peer Arsalan</h3>
     </div>
+    </div>
+    
   );
 };
 export default Navbar;
