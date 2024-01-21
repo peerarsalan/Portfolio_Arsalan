@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio_Arsalan/static/css/main.83df3b48.css",
-    "main.js": "/Portfolio_Arsalan/static/js/main.dedba8b3.js",
+    "main.css": "/Portfolio_Arsalan/static/css/main.91e33f99.css",
+    "main.js": "/Portfolio_Arsalan/static/js/main.e4ee1f10.js",
     "static/media/Albayt.png": "/Portfolio_Arsalan/static/media/Albayt.6cd276e6bd7e4ad2707d.png",
     "static/media/main.png": "/Portfolio_Arsalan/static/media/main.ccae7a19f0a3f2919626.png",
     "static/media/logo.png": "/Portfolio_Arsalan/static/media/logo.a943e08569c49a075bd2.png",
     "static/media/code2.png": "/Portfolio_Arsalan/static/media/code2.991831d0a626b3b8e8b3.png",
     "index.html": "/Portfolio_Arsalan/index.html",
-    "main.83df3b48.css.map": "/Portfolio_Arsalan/static/css/main.83df3b48.css.map",
-    "main.dedba8b3.js.map": "/Portfolio_Arsalan/static/js/main.dedba8b3.js.map"
+    "main.91e33f99.css.map": "/Portfolio_Arsalan/static/css/main.91e33f99.css.map",
+    "main.e4ee1f10.js.map": "/Portfolio_Arsalan/static/js/main.e4ee1f10.js.map"
   },
   "entrypoints": [
-    "static/css/main.83df3b48.css",
-    "static/js/main.dedba8b3.js"
+    "static/css/main.91e33f99.css",
+    "static/js/main.e4ee1f10.js"
   ]
 }
