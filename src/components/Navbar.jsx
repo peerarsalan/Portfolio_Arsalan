@@ -23,7 +23,7 @@ const Navbar = () => {
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-l from-gray-700 via-gray-900 to-black opacity-90 text-gray-300'>
       <div>
        <div className='flow-root flex xsm:flex '>
-        <h1 className=' font-bold text-2xl xsm:text-xl md:text-4xl'>ARSALAN</h1>
+        <h1 className=' font-bold text-2xl xsm:text-xl md:text-4xl sm:text-2xl'>ARSALAN</h1>
         <img className='ml-4' src={logo} width={35} height={20} />
         </div>
         
@@ -65,7 +65,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-9 right-5 w-[150px] h-[236px] bg-[black] flex flex-col justify-center items-center shadow-sm shadow-white grid text-center grid-rows-5 divide-y bg-opacity-90 cursor-pointer transition-duration-1000 ease-out'
+            : 'absolute top-9 right-5 w-[150px] h-[236px] bg-gradient-to-l from-gray-700 via-gray-900 to-black flex flex-col justify-center items-center shadow-sm shadow-white grid text-center grid-rows-5 divide-y bg-opacity-90 cursor-pointer transition-duration-1000 ease-out'
         }
       >
         <li className='py-2 text-2xl '>

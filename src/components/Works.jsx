@@ -3,13 +3,13 @@ import code from '../assets/code2.png';
 import albayt1 from '../assets/Albayt.png';
 const Works = () => {
   return(
-    <div name='work' className='flex w-full h-full pt-20 md:h-full font-sans text-gray-300 bg-gradient-to-l from-gray-700 via-gray-900 to-black xsm:h-screen'>
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-screen'>
+    <div name='work' className='flex md:px-20 w-full h-full md:h-full font-sans text-gray-300 bg-gradient-to-l  from-gray-700 via-gray-900 to-black xsm:h-screen'>
+      <div className='max-w-[1000px] mx-auto pt-20 p-4 flex flex-col justify-center w-full xsm:h-full md:h-full'>
         <div className='pb-8 w-full flex justify-center items-center flex-col'>
-          <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-cyan-500'>
+          <p className='text-4xl font-bold md:text-5xl inline border-b-4 text-gray-300 border-cyan-500'>
             Work
           </p>
-          <p className='py-6 text-2xl text-center px-7'>Check out some of my most recent work</p>
+          <p className='py-6 text-2xl md:text-3xl text-center px-7'>Check out some of my most recent work</p>
         </div>
 {/* Container */}
         <div className='grid xsm:grid-cols-2 sm:grid-cols-2 px-3 md:grid-cols-3 gap-4'>

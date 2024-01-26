@@ -7,14 +7,14 @@ const Home = () => {
   return(
     <div
     name="home"
-    className="h-full w-full bg-gradient-to-l from-gray-700 via-gray-900 to-black md:h-full flex"
+    className="h-full w-full bg-gradient-to-l md:px-10 py-8 from-gray-700 via-gray-900 to-black md:h-full flex"
   >
     <div className="max-w-screen-lg mx-auto px-10 pt-24 flex flex-col items-center justify-center h-full px-4  md:flex-row ">
       <div className="flex flex-col justify-center h-full sm:pt-90">
-        <h2 className="text-4xl sm:text-7xl font-bold text-white text-white">
+        <h2 className="text-4xl lg:text-6xl xl:text-8xl sm:text-5xl font-bold text-white text-white">
           Hi there! I'm a Front-End Web Developer
         </h2>
-        <p className="text-gray-500 py-4 max-w-md">
+        <p className="text-gray-500 py-4 max-w-md lg:text-2xl sm:text-xl">
            I have 4 years of experience in web design and development.
           Currently, I love to work on web application using technologies like
           React JS, Tailwind, CMS and other Frontend Technologies.
@@ -37,7 +37,7 @@ const Home = () => {
         <img
           src={me}  
           alt="my profile"
-          className="rounded-2xl mx-auto w-2/3 md:w-full"
+          className="rounded-2xl xsm:pt-5 mx-auto w-2/3 md:w-full"
         />
       </div>
     </div>
