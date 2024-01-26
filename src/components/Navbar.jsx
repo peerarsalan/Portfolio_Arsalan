@@ -51,6 +51,11 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='hover:text-sky-700'>
+          <Link to='education' smooth={true} duration={500}>
+            Education
+          </Link>
+        </li>
+        <li className='hover:text-sky-700'>
           <Link to='contact' smooth={true} duration={500}>
             Contact
           </Link>
@@ -93,11 +98,18 @@ const Navbar = () => {
         </li>
         <li className='py-2 text-2xl'>
           {' '}
+          <Link onClick={handleClick} to='education' smooth={true} duration={500}>
+            Education
+          </Link>
+        </li>
+        <li className='py-2 text-2xl'>
+          {' '}
           <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
             Contact
           </Link>
         </li>
       </ul>
+      
       {/* Social icons */}
       <div className=' lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
@@ -147,6 +159,7 @@ const Navbar = () => {
       <div className='fixed w-full h-[30px] flex justify-between items-center px-4 bottom-0 bg-[] text-gray-300 flex'>
       <h3 className='text-right w-full items-center pr-4 font-sans font-bold'>&copy; Peer Arsalan</h3>
     </div>
+    
     </div>
     
   );

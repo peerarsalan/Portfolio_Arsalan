@@ -11,7 +11,7 @@ const About = () => {
     >
       <div className="flex flex-col  justify-center items-center w-full lg:h-full">
         <div className=" rounded-md bg-gradient-to-r from-blue-500 to-cyan-500 flex flex-col justify-center items-center w-4/6">
-          <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8 mb-4">
+          <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8 mt-4 mb-4">
             <div className="sm:text-right  pl-4">
               <p className="text-4xl md:text-5xl animate-wiggle font-bold inline border-b-4 text-white border-cyan-500 xl:text-7xl">
                 About
