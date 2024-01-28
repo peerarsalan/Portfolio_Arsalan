@@ -10,9 +10,11 @@ import {
   FaLinkedinIn,
   FaInstagram,
   FaArrowLeft,
+  FaInstalod,
 } from 'react-icons/fa';
+import 'react-social-icons/vimeo'
 import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { BsFillPersonLinesFill, BsInstagram, BsVimeo } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -24,7 +26,7 @@ const Navbar = () => {
       <div>
        <div className='flow-root flex xsm:flex '>
         <h1 className=' font-bold text-2xl xsm:text-xl md:text-4xl sm:text-2xl'>ARSALAN</h1>
-        <img className='ml-4' src={logo} width={35} height={20} />
+        <img alt='header_logo' className='ml-4' src={logo} width={35} height={20} />
         </div>
         
       </div>
@@ -115,16 +117,16 @@ const Navbar = () => {
         <ul>
           <li className='xsm:h-[40px] xsm:w-[150px] xsm:size-10 xsm:bg-opacity-0 md:w-[160px] md:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 md:bg-blue-600  '>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className='flex justify-between items-center w-full md:text-gray-300 xsm:text-[#0077b5]'
               href='https://www.linkedin.com/in/peerarsalan
               '
             >
               Linkedin <FaLinkedin size={30} />
             </a>
-          </li>
+          </li >
           <li className='md:w-[160px] md:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 md:bg-[#FF69B4] xsm:h-[40px] xsm:w-[150px] xsm:size-10 xsm:bg-opacity-0'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className='flex justify-between items-center w-full md:text-gray-300 xsm:text-[#FF69B4]'
               href='https://www.instagram.com/peerzada_arsalan'
             >
               Instagram <FaInstagram size={30} />
@@ -132,7 +134,7 @@ const Navbar = () => {
           </li>
           <li className='md:w-[160px] md:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 md:bg-[#333333] xsm:h-[40px] xsm:w-[150px] xsm:size-10 xsm:bg-opacity-0'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className='flex justify-between items-center w-full md:text-gray-300 xsm:text-[#6e5494]'
               href='https://github.com/peerarsalan'
             >
               Github <FaGithub size={30} />
@@ -140,7 +142,7 @@ const Navbar = () => {
           </li>
           <li className='md:w-[160px] md:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 md:bg-[#6fc2b0] xsm:h-[40px] xsm:w-[150px] xsm:size-10 xsm:bg-opacity-0'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className='flex justify-between items-center w-full md:text-gray-300 xsm:text-[#EA4335]'
               href='mailto:peerarsalan7@gmail.com'
             >
               Email <HiOutlineMail size={30} />
@@ -148,7 +150,7 @@ const Navbar = () => {
           </li>
           <li className='md:w-[160px] md:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 md:bg-[#565f69] xsm:h-[40px] xsm:w-[150px] xsm:size-10 xsm:bg-opacity-0'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className='flex justify-between items-center w-full md:text-gray-300 xsm:text-[#4285F4]'
               href='https://drive.google.com/file/d/1_e15o6QNNxURVvg2KDejn21BiZMhCgkR/view?usp=drive_link'
             >
               Resume <BsFillPersonLinesFill size={30} />

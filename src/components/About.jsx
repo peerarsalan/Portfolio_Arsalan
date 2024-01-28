@@ -13,7 +13,7 @@ const About = () => {
         <div className=" rounded-md bg-gradient-to-r from-blue-500 to-cyan-500 flex flex-col justify-center items-center w-4/6">
           <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8 mt-4 mb-4">
             <div className="sm:text-right  pl-4">
-              <p className="text-4xl md:text-5xl animate-wiggle font-bold inline border-b-4 text-white border-cyan-500 xl:text-7xl">
+              <p attribute_name="about" className="text-4xl md:text-5xl animate-wiggle font-bold inline border-b-4 text-white border-cyan-500 xl:text-7xl">
                 About
               </p>
             </div>
@@ -39,16 +39,12 @@ const About = () => {
           
         </div>
         <div className="py-8">
-              <h2 className="text-white animate-typing xsm:text-xl overflow-hidden whitespace-nowrap border-r-3 border-r-white pr-5 text-2xl text-white font-bold">
+              <h2 className="text-white animate-typing xsm:text-xl overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-2xl text-white font-bold">
                 Connect with me on Social Media
-                <a
-              className='flex justify-between items-center w-full text-gray-300 animate-pulse'
-              href='https://www.linkedin.com/in/peerarsalan
-              '
-            >
-            <FaArrowLeft size={30} />
-            </a>
               </h2>
+              <p className="text-white">
+                <FaArrowLeft size={30} />
+              </p>
             </div>
       </div>
     </div>

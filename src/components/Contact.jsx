@@ -1,4 +1,5 @@
 import React from 'react'
+import { BsFacebook } from 'react-icons/bs';
 import {
   FaBars,
   FaTimes,
@@ -8,6 +9,14 @@ import {
   FaInstagram,
   FaInstagramSquare,
   FaEnvelopeSquare,
+  FaFacebookF,
+  FaLinkedinIn,
+  FaGithub,
+  FaEnvelopeOpenText,
+  FaEnvelopeOpen,
+  FaRegEnvelope,
+  FaRegEnvelopeOpen,
+  FaEnvelope,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 
@@ -21,7 +30,7 @@ const Contact = () => {
             <div className='pb-4 flex flex-col  md:justify-center w-full h-full items-center'>
                 
                 <p className='text-4xl flex md:text-5xl pt-8 font-bold inline border-b-4 border-cyan-500 text-gray-300 justify-center w-full'>Contact</p>
-                <p className='text-gray-300 pt-2 xsm:justify-center'>Send me a message</p>
+                <p className='text-gray-300 pt-2 xsm:justify-center bg-gradient-to-r from-[#fccc63] via-[#8a3ab9] to-[#fbad50] text-transparent bg-clip-text'>Send me a message</p>
             </div>
             <input className='bg-[#ccd6f6] p-2' type="text" placeholder='Name' name='name' />
             <input className='my-4 p-2 bg-[#ccd6f6]' type="email" placeholder='Email' name='email' />
@@ -29,36 +38,43 @@ const Contact = () => {
             <button className='text-white border-2 hover:bg-cyan-500 hover:border-cyan-500 px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate</button>
         </div>
         
-    
-    <div className='w-full  h-[20px] bg-gradient-to-l from-gray-700 via-gray-900 to-black bottom-10  pt-10 items-center flex bg-[black] md:justify-center xsm:justify-center'>
-      <div className='w- gap-2 items-center flex flex'>
+    {/*Social Footer*/}
+    <div className='w-full  h-[20px] bottom-10  pt-10 items-center flex md:justify-center xsm:justify-center'>
+      <div className='w- gap-6 items-center flex flex'>
     <a
-          className='flex  w-full text-gray-300  '
+          className='flex  w-full text-[#6e5494] '
           href='https://www.github.com/in/peerarsalan
           '
         >
-           <FaGithubSquare size={30} />
+           <FaGithub size={30} />
         </a>
         <a
-          className='flex  w-full  text-gray-300'
+          className='flex  w-full  text-[#0077b5]'
           href='https://www.linkedin.com/in/peerarsalan
           '
         >
-           <FaLinkedin size={30} />
+           <FaLinkedinIn size={30} />
         </a>
         <a
-          className='flex w-full text-gray-300'
+          className='flex w-full text-[#FF69B4] '
           href='https://www.instagram.com/in/peerzada_arsalan
           '
         >
-           <FaInstagramSquare size={30} />
+           <FaInstagram size={30} />
         </a>
         <a
-          className='flex w-full text-gray-300'
+          className='flex text-[#316FF6] hover:[#fccc63] w-full  '
+          href='https://www.github.com/in/peerarsalan
+          '
+        >
+           <FaFacebookF size={30} />
+        </a>
+        <a
+          className='flex w-full text-[#EA4335]'
           href='https://mailto:peerarsalan7@gmail.com
           '
         >
-           <FaEnvelopeSquare size={30} />
+           <FaEnvelope size={30} />
         </a>
         </div>
         </div>
